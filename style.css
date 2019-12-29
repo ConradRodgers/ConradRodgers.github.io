@@ -1,168 +1,68 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+* {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 h1 {
-  color: teal;
-  font-size: 40px;
-  font-weight: bolder;
-  font-family: "Georgia";
-  padding-top: 80px;
+  font-family: "Georgia", Times, "Times New Roman", serif;
 }
-
-p {
-  color: #777777;
-}
-
 nav {
+  height: 60px;
+  background-color: white;
+  border-bottom: 2px solid #cccccc;
+  overflow: hidden;
+}
+.navInner {
+  width: 80%;
+  margin: 0 auto;
+}
+body {
+  margin: 0px;
+}
+
+.navButton {
   float: right;
 }
 
-body {
-  margin-top: 150;
-  margin-left: 30%;
-  margin-right: 30%;
+.navButtonText {
+  line-height: 60px;
+  text-decoration: none;
+  padding: 0 5px;
+  color: #777777;
+}
+.nameContainer {
+  float: left;
+  background-color: #4aaaa5;
+  padding: 0px 10px;
+  height: 60px;
+}
+.nameText {
+  color: #ffffff;
 }
 
-section {
-  background-color: seashell;
+.container {
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 2px solid #cccccc;
+  padding: 20px;
 }
 
-footer {
-  background-color: sienna;
+.footer {
   position: fixed;
-  left: 0vmax;
-  bottom: 0%;
+  left: 0;
+  bottom: 0;
   width: 100%;
+  background-color: #4aaaa5;
   color: white;
   text-align: center;
 }
-html {
-  background: url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?cs=srgb&dl=adventure-calm-clouds-dawn-414171.jpg&fm=jpg);
+
+.containerDetails {
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 10px;
 }
