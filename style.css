@@ -12,11 +12,12 @@ nav {
   overflow: hidden;
 }
 .navInner {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 body {
   margin: 0px;
+  background-color: #dddddd;
 }
 
 .navButton {
@@ -27,14 +28,19 @@ body {
   line-height: 60px;
   text-decoration: none;
   padding: 0 5px;
-  color: #777777;
+  color: #4aaaa5;
 }
 .nameContainer {
   float: left;
-  background-color: #4aaaa5;
+  background-color: #4aaaafff;
   padding: 0px 10px;
   height: 60px;
 }
+
+.AboutMeText {
+  color: teal;
+}
+
 .nameText {
   color: #ffffff;
 }
@@ -42,7 +48,9 @@ body {
 .container {
   margin-left: 20%;
   margin-right: 20%;
-  border: 2px solid #cccccc;
+  border: 2px solid;
+  border-color: #dddddd;
+  background-color: #ffffff;
   padding: 20px;
 }
 
@@ -51,7 +59,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #4aaaa5;
+  background-color: #cccccc;
   color: white;
   text-align: center;
 }
