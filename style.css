@@ -3,6 +3,7 @@
 }
 
 h1 {
+  color: teal;
   font-family: "Georgia", Times, "Times New Roman", serif;
 }
 nav {
@@ -73,4 +74,17 @@ img {
   float: left;
   padding-right: 15px;
   padding-bottom: 10px;
+}
+
+.ContactForm {
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 2px solid;
+  border-color: #dddddd;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.body {
+  background-image: image(images\seigaiha\seigaiha.png);
 }
