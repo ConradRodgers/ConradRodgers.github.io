@@ -18,7 +18,7 @@ nav {
 }
 body {
   margin: 0px;
-  background-color: #dddddd;
+  background-image: url(https://github.com/ConradRodgers/ConradRodgers.github.io/blob/master/images/seigaiha/seigaiha.png?raw=true);
 }
 
 .navButton {
@@ -85,6 +85,6 @@ img {
   padding: 20px;
 }
 
-.body {
-  background-image: image(images\seigaiha\seigaiha.png);
+hr {
+  border-width: 4px;
 }
