@@ -88,3 +88,10 @@ img {
 hr {
   border-width: 4px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}
