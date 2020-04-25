@@ -53,6 +53,7 @@ body {
   border-color: #dddddd;
   background-color: #ffffff;
   padding: 20px;
+  padding-bottom: 10px;
 }
 
 .footer {
@@ -108,17 +109,26 @@ hr {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-content: space-between;
+  /* align-content: space-evenly; */
   padding-top: 20px;
 }
 
 .flip-card {
   background-color: transparent;
   width: 300px;
+  margin-bottom: 10px;
   height: 200px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
+
+/* #weather {
+  flex-grow: 0.3;
+}
+
+#random {
+  flex-grow: 0.7;
+} */
 
 /* This container is needed to position the front and back side */
 .flip-card-inner {
